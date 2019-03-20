@@ -30,5 +30,6 @@ def printer(attendees)
   end
   conference_badges
 end
+end
     
   
