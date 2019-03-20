@@ -24,7 +24,7 @@ def printer(attendees)
   conference_badges = [ ]
   room_assignments.each do |room|
     puts room
-    conference_badges << badge && room
+    conference_badges << badges && room
   end
   conference_badges
 end
