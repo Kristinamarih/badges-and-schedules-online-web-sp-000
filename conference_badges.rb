@@ -19,4 +19,16 @@ def assign_rooms(attendees)
   end
   room_assignments
 end
+
+def printer(attendees)
+  conference_badges = [ ]
+  badges.each do |badge|
+    puts badge
+  room_assignments.each do |room|
+    puts room
+    conference_badges << badge && room
+  end
+  conference_badges
+end
+    
   
