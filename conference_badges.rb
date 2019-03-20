@@ -22,9 +22,9 @@ end
 
 def printer(attendees)
   conference_badges = [ ]
-  badges.each do |badge|
+  batch_badge_creator(attendees).each do |badge|
     puts badge
-  room_assignments.each do |room|
+  assign_rooms(attendees).each do |room|
     puts room
     conference_badges << badge && room
   end
